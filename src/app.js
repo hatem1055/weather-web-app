@@ -45,6 +45,6 @@ app.get('/weather',(req,res)=>{
 
 
 
-app.listen(port,'192.168.1.7',()=>{
+app.listen(port,()=>{
 console.log('serever is up' + port)
 })

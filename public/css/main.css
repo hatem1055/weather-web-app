@@ -1,0 +1,23 @@
+.main{
+    padding: 20px
+}
+.media{
+    margin: auto;
+    width: 37%;
+}
+.statImg{
+    margin-right: -1px !important;
+}
+.temp{
+    font-weight: 500;
+}
+.temp span{
+    font-weight: 400;
+}
+/* responisve styling*/
+@media (max-width:500px){
+    .media {
+        margin: auto;
+        width: 70%;
+    }
+}

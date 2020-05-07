@@ -1,0 +1,33 @@
+.form{
+    width: 100%;
+    width: 100%;
+    background-color: #c0cee4;
+    padding: 7px;
+}
+form{
+    width: 44%;
+    margin: auto;
+}
+input{
+    border-radius: 25px;
+    border: none;
+    width: 85%;
+    font-weight: 600;
+    text-align: center;
+}
+/* responisve styling*/
+@media (max-width:500px){
+    form {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+button{
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+}

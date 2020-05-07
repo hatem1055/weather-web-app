@@ -23,7 +23,7 @@ app.get('/weather',(req,res)=>{
     if(!address){
         return res.send({error:'please write an address'})
     }
-   let api = {}
+    let api = {}
    forecast(address,(e,{current,forecast,location,request,error})=>{
     if(!e){
        if(error != null){

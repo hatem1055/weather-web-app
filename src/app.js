@@ -2,6 +2,7 @@ const path = require('path'),
       express = require('express'),
       hbs = require('hbs'),
       app = express(),
+      port = process.env.PORT || '3000',
      forecast=require('../src/utils/forecast')
 //paths
 const static = path.join(__dirname,'../public'),
@@ -44,6 +45,6 @@ app.get('/weather',(req,res)=>{
 
 
 
-app.listen(3000,'192.168.1.7',()=>{
-console.log('serever is up')
+app.listen(port,'192.168.1.7',()=>{
+console.log('serever is up' + port)
 })
